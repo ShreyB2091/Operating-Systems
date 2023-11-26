@@ -1,0 +1,176 @@
+        ###########     VM Area Details         ################
+        VM_Area:[1]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x180202000] #PAGES[1]  R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[1]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[2]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[3]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[4]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x180210000    0x180211000] #PAGES[1]  R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[3]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020F000] #PAGES[14] R _ _
+        [0x180210000    0x180211000] #PAGES[1]  R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+GemOS# exit
+Connection closed by foreign host.
+osws@f4185ce48a24:~$ telnet localhost 3456
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x113108 EBP=0x113168
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+Initializing APIC
+APIC Base address = 0xFEE00000
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[1]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x180202000] #PAGES[1]  R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[1]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[2]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[3]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[4]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x18020E000] #PAGES[13] R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x180210000    0x180211000] #PAGES[1]  R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[6]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x180203000] #PAGES[2]  R _ _
+        [0x180203000    0x180206000] #PAGES[3]  R W _
+        [0x180206000    0x18020E000] #PAGES[8]  R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x180210000    0x180211000] #PAGES[1]  R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[6]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x180203000] #PAGES[2]  R _ _
+        [0x180203000    0x180207000] #PAGES[4]  R W _
+        [0x180207000    0x18020E000] #PAGES[7]  R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x180210000    0x180211000] #PAGES[1]  R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
+
+
+
+        ###########     VM Area Details         ################
+        VM_Area:[8]             MMAP_Page_Faults[0]
+
+        [0x180201000    0x180203000] #PAGES[2]  R _ _
+        [0x180203000    0x180204000] #PAGES[1]  R W _
+        [0x180204000    0x180205000] #PAGES[1]  R _ _
+        [0x180205000    0x180207000] #PAGES[2]  R W _
+        [0x180207000    0x18020E000] #PAGES[7]  R _ _
+        [0x18020E000    0x18020F000] #PAGES[1]  R W _
+        [0x180210000    0x180211000] #PAGES[1]  R _ _
+        [0x18021A000    0x180226000] #PAGES[12] R _ _
+
+        ###############################################
